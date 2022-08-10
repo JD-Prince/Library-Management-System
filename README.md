@@ -31,4 +31,4 @@ A console Application without using SQL. Developed with the knowledge of Multith
 
 
 In this Code Every User need a user ID and password to access. new user can be add by the Admin. This User list can be edit from the file User.txt or else by the admin
-the login details were given in LoginData
+the login details were given in Login Data.
