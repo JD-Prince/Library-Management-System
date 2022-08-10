@@ -623,52 +623,7 @@ public class Library {
 
         }catch(IOException e){e.printStackTrace();}
 
-/*
-        UserData A1=new UserData("Philip","psda001");
-        UserData A2=new UserData("Raj","psda002");
-        UserData A3=new UserData("Stefen","psda003");
-        UserData S1=new UserData("Lois","psds001");
-        UserData S2=new UserData("Sam","psds002");
-        UserData S3=new UserData("Richie","psds003");
-        UserData S4=new UserData("Loki","psds004");
-        UserData S5=new UserData("Guna","psds005");
-        UserData S6=new UserData("Paul","psds006");
-        UserData S7=new UserData("Edward","psds007");
-        UserData S8=new UserData("Michale","psds008");
-        UserData S9=new UserData("Marcel","psds009");
 
-        HashMap<String,UserData> pswd=new HashMap<>();
-        pswd.put("LIBA01",A1);
-        pswd.put("LIBA02",A2);
-        pswd.put("LIBA03",A3);
-        pswd.put("LIBS01",S1);
-        pswd.put("LIBS02",S2);
-        pswd.put("LIBS03",S3);
-        pswd.put("LIBS04",S4);
-        pswd.put("LIBS05",S5);
-        pswd.put("LIBS06",S6);
-        pswd.put("LIBS07",S7);
-        pswd.put("LIBS08",S8);
-        pswd.put("LIBS09",S9);
-
-        Book M1 = new Book("Climb UP!", "Richi Pierce", "This book is based on the Women empowerment", "Black swan", "73$", "Motivational", 4.2, 4);
-        Book F1 = new Book("Harry Potter", "JK Rowlings", "J.K. Rowling's \"Harry Potter\" series — which has recently been reexamined in new cultural context after the author's so-called 'TERF' statements about the trans community — still remains one of the most popular book series of all time.", "Disney", "344$", "Fantasy", 4.9, 8);
-        Book F2 = new Book("The Name of the Wind","Patrick Rothfuss", """
-                Told in Kvothe's own voice, this is the tale of the magically gifted young man who grows to be the most notorious wizard his world has ever seen.
-                The intimate narrative of his childhood in a troupe of traveling players, his years spent as a near-feral orphan in a crime-ridden city, his daringly brazen yet successful bid to enter a legendary school of magic, and his life as a fugitive after the murder of a king form a gripping coming-of-age story unrivaled in recent literature.
-                A high-action story written with a poet's hand, The Name of the Wind is a masterpiece that will transport readers into the body and mind of a wizard.""","Amazon","67$","Fantasy",4.52,9);
-        Book F3 = new Book("The Fifth Season","N.K. Jemisin", """
-                This is the way the world ends. Again.
-                Three terrible things happen in a single day. Essun, a woman living an ordinary life in a small town, comes home to find that her husband has brutally murdered their son and kidnapped their daughter. Meanwhile, mighty Sanze -- the world-spanning empire whose innovations have been civilization's bedrock for a thousand years -- collapses as most of its citizens are murdered to serve a madman's vengeance. And worst of all, across the heart of the vast continent known as the Stillness, a great red rift has been torn into the heart of the earth, spewing ash enough to darken the sky for years. Or centuries.
-                Now Essun must pursue the wreckage of her family through a deadly, dying land. Without sunlight, clean water, or arable land, and with limited stockpiles of supplies, there will be war all across the Stillness: a battle royale of nations not for power or territory, but simply for the basic resources necessary to get through the long dark night. Essun does not care if the world falls apart around her. She'll break it herself, if she must, to save her daughter.""","Amazon","104$","Fantasy",4.32,12);
-
-
-
-        Lib.put("M1", M1);
-        Lib.put("F1", F1);
-        Lib.put("F2",F2);
-        Lib.put("F3",F3);
-*/
 
         getData(pswd,Lib);
 
