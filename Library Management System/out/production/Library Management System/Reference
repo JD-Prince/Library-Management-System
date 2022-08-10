@@ -1,0 +1,3 @@
+int ck = Check weather the user is Admin or Student...Admin => 1......Student =>2
+User Id = Users data
+Book Id = book data
